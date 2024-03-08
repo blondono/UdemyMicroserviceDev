@@ -19,11 +19,11 @@ spec:
                 type: microservice
         spec:
             containers:
-                - name: microservice-libreria-app
-                    image: blondonogarcia/serviciosapilibreria:latest
-                    ports:
-                        - containerPort: 80
-                    env:
-                        - name: MongoDb__ConnectionString
-                        value: mongodb://blondonogarcia:Bryan1224.@mongo-service:27017
+            - name: microservice-libreria-app
+              image: blondonogarcia/serviciosapilibreria:latest
+              ports:
+               - containerPort: 80
+              env:
+               - name: MongoDb__ConnectionString
+                 value: mongodb://blondonogarcia:Bryan1224.@mongo-service:27017
         
