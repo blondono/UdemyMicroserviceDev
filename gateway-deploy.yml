@@ -11,16 +11,16 @@ spec:
         matchLabels:
             app: gateway
             type: microservice
-        template:
-            metadata:
-                name: gateway-pod
-                labels:
-                    app: gateway
-                    type: microservice
-            spec:
-                containers:
-                - name: gateway-app
-                  image: bblondonogarcia/serviciosapigateway:tagname
-                  ports:
-                    - containerPort: 80
+    template:
+        metadata:
+            name: gateway-pod
+            labels:
+                app: gateway
+                type: microservice
+        spec:
+            containers:
+              - name: gateway-app
+                image: bblondonogarcia/serviciosapigateway:tagname
+                ports:
+                - containerPort: 80
         
