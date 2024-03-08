@@ -15,8 +15,8 @@ spec:
         metadata:
             name: mongo-pod
             labels:
-                app: microservice-libreria
-                type: database
+                name: mongo-service
+                app: database
         spec:
             containers:
             - name: mongo
@@ -24,10 +24,10 @@ spec:
               command:
                - /bin/bash
                - -c
+              ports:
+               - containerPort: 27017
               env:
                - name: MONGO_INITDB_ROOT_USERNAME
                  value: "blondonogarcia"
                - name: MONGO_INITDB_ROOT_PASSWORD
                  value: "Bryan1224."
-              ports:
-               - containerPort: 27017
