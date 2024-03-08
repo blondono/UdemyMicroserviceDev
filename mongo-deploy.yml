@@ -15,8 +15,8 @@ spec:
         metadata:
             name: mongo-pod
             labels:
-                name: mongo-service
-                app: database
+                app: microservice-libreria
+                name: mongo-pod
         spec:
             containers:
             - name: mongo
