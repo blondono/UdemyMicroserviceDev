@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Servicios.api.Seguridad.Migrations
 {
-    public partial class MigracionSeguridadInicial : Migration
+    public partial class InitialMiration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

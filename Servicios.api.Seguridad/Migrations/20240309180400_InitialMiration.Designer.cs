@@ -10,8 +10,8 @@ using Servicios.api.Seguridad.Core.Persistence;
 namespace Servicios.api.Seguridad.Migrations
 {
     [DbContext(typeof(SeguridadContexto))]
-    [Migration("20201030042823_MigracionSeguridadInicial")]
-    partial class MigracionSeguridadInicial
+    [Migration("20240309180400_InitialMiration")]
+    partial class InitialMiration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
