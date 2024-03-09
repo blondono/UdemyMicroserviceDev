@@ -20,10 +20,7 @@ spec:
         spec:
             containers:
               - name: mongo
-                image: mongo:4.2.12
-                command:
-                - /bin/bash
-                - -c
+                image: mongo:latest
                 env:
                 - name: MONGO_INITDB_ROOT_USERNAME
                   value: "blondonogarcia"
