@@ -20,7 +20,7 @@ spec:
         spec:
             containers:
               - name: gateway-app
-                image: bblondonogarcia/serviciosapigateway:tagname
+                image: blondonogarcia/serviciosapigateway:tagname
                 ports:
                 - containerPort: 80
         
