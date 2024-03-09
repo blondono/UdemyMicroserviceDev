@@ -20,7 +20,7 @@ spec:
         spec:
             containers:
             - name: microservice-seguridad-app
-              image: blondonogarcia/serviciosapiseguridad:tagname
+              image: blondonogarcia/serviciosapiseguridad:latest
               ports:
                - containerPort: 80
               env:
